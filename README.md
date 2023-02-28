@@ -22,13 +22,13 @@ Dividing large PCD files into 2D grids.
   ./ros/devel/lib/pointcloud_divider/pointcloud_divider <NUM_PCD> <PCD_0> ... <PCD_N> <OUTPUT_DIR> <PREFIX> <CONFIG>
   ```
 
-  | Name       | Description                       |
-  | -------    | -------------------------         |
-  | NUM_PCD    | Number of input PCD files         |
-  | PCD_N      | Input PCD file name               |
-  | OUTPUT_DIR | Output directory name             |
-  | PREFIX     | Prefix of output PCD file name    |
-  | CONFIG     | Config file (config/default.yaml) |
+  | Name       | Description                                  |
+  | -------    | -------------------------                    |
+  | NUM_PCD    | Number of input PCD files                    |
+  | PCD_N      | Input PCD file name                          |
+  | OUTPUT_DIR | Output directory name                        |
+  | PREFIX     | Prefix of output PCD file name               |
+  | CONFIG     | Config file ([default](config/default.yaml)) |
 
 ## LICENSE
 
