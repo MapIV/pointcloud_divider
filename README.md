@@ -19,7 +19,7 @@ Dividing large PCD files into 2D grids.
   ## Usage
 
   ```
-  ./ros/devel/lib/pointcloud_divider/pointcloud_divider <NUM_PCD> <PCD_0> ... <PCD_N> <OUTPUT_DIR> <PREFIX> <CONFIG>
+  ./devel/lib/pointcloud_divider/pointcloud_divider <NUM_PCD> <PCD_0> ... <PCD_N> <OUTPUT_DIR> <PREFIX> <CONFIG>
   ```
 
   | Name       | Description                                  |
