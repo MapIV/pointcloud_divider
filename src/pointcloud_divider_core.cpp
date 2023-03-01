@@ -2,6 +2,7 @@
 
 #include <experimental/filesystem>
 
+#include <pcl/common/transforms.h>
 #include <pcl/filters/voxel_grid.h>
 
 namespace fs = std::experimental::filesystem;
@@ -106,6 +107,7 @@ std::string PointCloudDivider<PointT>::makeFileName(const GridInfo& grid) const
 template <class PointT>
 void PointCloudDivider<PointT>::saveGridPCD()
 {
+  typename pcl::PointCloud<PointT>::Ptr merged_cloud(new pcl::PointCloud<PointT>);
   for (std::pair<GridInfo, pcl::PointCloud<PointT>> e : grid_to_cloud)
   {
     grid_set_.insert(e.first);
@@ -127,18 +129,41 @@ void PointCloudDivider<PointT>::saveGridPCD()
       if (leaf_size_ != 0)
       {
         pcl::VoxelGrid<PointT> vgf;
+        // Translate clouds to near the origin
+        Eigen::Matrix4f offset = Eigen::Matrix4f::Identity();
+        offset(0, 3) = e.second.points[0].x;
+        offset(1, 3) = e.second.points[0].y;
+        offset(2, 3) = e.second.points[0].z;
+
         typename pcl::PointCloud<PointT>::Ptr tmp_ptr(new pcl::PointCloud<PointT>);
-        *tmp_ptr = e.second;
+        pcl::transformPointCloud(e.second, *tmp_ptr, offset.inverse());
+
         vgf.setInputCloud(tmp_ptr);
         vgf.setLeafSize(leaf_size_, leaf_size_, leaf_size_);
         vgf.filter(filtered);
-        e.second = filtered;
+
+        // Revert clouds to original position
+        pcl::transformPointCloud(filtered, e.second, offset);
       }
     }
 
-    if (pcl::io::savePCDFileBinary(file_name, e.second) == -1)
+    if (merge_pcds_)
+    {
+      *merged_cloud += e.second;
+    }
+    else if (pcl::io::savePCDFileBinary(file_name, e.second) == -1)
     {
       std::cerr << "Error: Cannot save PCD: " << file_name << std::endl;
+      exit(1);
+    }
+  }
+
+  if (merge_pcds_)
+  {
+    std::string filename = output_dir_ + "/" + file_prefix_ + ".pcd";
+    if (pcl::io::savePCDFileBinary(filename, *merged_cloud))
+    {
+      std::cerr << "Error: Cannot save PCD: " << filename << std::endl;
       exit(1);
     }
   }
@@ -153,6 +178,7 @@ void PointCloudDivider<PointT>::paramInitialize()
   {
     YAML::Node conf = YAML::LoadFile(config_file_)["pointcloud_divider"];
     use_large_grid_ = conf["use_large_grid"].as<bool>();
+    merge_pcds_ = conf["merge_pcds"].as<bool>();
     leaf_size_ = conf["leaf_size"].as<double>();
     grid_size_x_ = conf["grid_size_x"].as<double>();
     grid_size_y_ = conf["grid_size_y"].as<double>();

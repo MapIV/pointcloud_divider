@@ -98,6 +98,7 @@ private:
 
   // Params from yaml
   bool use_large_grid_ = false;
+  bool merge_pcds_ = false;
   double leaf_size_ = 0.1;
   double grid_size_x_ = 100;
   double grid_size_y_ = 100;

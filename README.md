@@ -1,6 +1,6 @@
 # pointcloud_divider
 
-(Updated 2023/02/28)
+(Updated 2023/03/01)
 
 Dividing large PCD files into 2D grids.
 
@@ -16,19 +16,47 @@ Dividing large PCD files into 2D grids.
   catkin_make -DCMAKE_BUILD_TYPE=Release
   ```
 
-  ## Usage
+## Usage
+
+  * Select directory, process all files found with `find $INPUT_DIR -name "*.pcd"`.
 
   ```
-  ./devel/lib/pointcloud_divider/pointcloud_divider <NUM_PCD> <PCD_0> ... <PCD_N> <OUTPUT_DIR> <PREFIX> <CONFIG>
+  cd hoge_ws
+  ./src/pointcloud_divider/scripts/pointcloud_divider.sh <INPUT_DIR> <OUTPUT_DIR> <PREFIX> <CONFIG>
+  ```
+
+  * Select indivisual files
+
+  ```
+  cd hoge_ws
+  ./src/pointcloud_divider/scripts/divider_core.sh <PCD_0> ... <PCD_N> <OUTPUT_DIR> <PREFIX> <CONFIG>
   ```
 
   | Name       | Description                                  |
   | -------    | -------------------------                    |
-  | NUM_PCD    | Number of input PCD files                    |
+  | INPUT_DIR  | Directory that contains all PCD files        |
   | PCD_N      | Input PCD file name                          |
   | OUTPUT_DIR | Output directory name                        |
   | PREFIX     | Prefix of output PCD file name               |
   | CONFIG     | Config file ([default](config/default.yaml)) |
+
+## Parameter
+
+  * use_large_grid
+
+    Pack output PCD files in larger grid directory
+
+  * merge_pcds
+
+    Merge all grid into a single PCD
+
+  * leaf_size
+
+    leaf_size of voxel grid filter [m]
+
+  * grid_size_x(/y)
+
+    Size of grid [m]
 
 ## LICENSE
 
