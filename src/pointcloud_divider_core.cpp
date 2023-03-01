@@ -124,13 +124,16 @@ void PointCloudDivider<PointT>::saveGridPCD()
     if (leaf_size_ > 0)
     {
       pcl::PointCloud<PointT> filtered;
-      pcl::VoxelGrid<PointT> vgf;
-      typename pcl::PointCloud<PointT>::Ptr tmp_ptr(new pcl::PointCloud<PointT>);
-      *tmp_ptr = e.second;
-      vgf.setInputCloud(tmp_ptr);
-      vgf.setLeafSize(leaf_size_, leaf_size_, leaf_size_);
-      vgf.filter(filtered);
-      e.second = filtered;
+      if (leaf_size_ != 0)
+      {
+        pcl::VoxelGrid<PointT> vgf;
+        typename pcl::PointCloud<PointT>::Ptr tmp_ptr(new pcl::PointCloud<PointT>);
+        *tmp_ptr = e.second;
+        vgf.setInputCloud(tmp_ptr);
+        vgf.setLeafSize(leaf_size_, leaf_size_, leaf_size_);
+        vgf.filter(filtered);
+        e.second = filtered;
+      }
     }
 
     if (pcl::io::savePCDFileBinary(file_name, e.second) == -1)
