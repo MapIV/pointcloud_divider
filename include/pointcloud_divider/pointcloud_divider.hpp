@@ -73,11 +73,11 @@ public:
     return std::pair<double, double>(grid_size_x_, grid_size_y_);
   }
 
-  std::unordered_set<GridInfo> run(std::vector<std::string> pcd_names, std::string output_dir, std::string file_prefix,
-                                   std::string config);
+  void run(std::vector<std::string> pcd_names, std::string output_dir, std::string file_prefix,
+           std::string config);
 
-  std::unordered_set<GridInfo> run(const typename pcl::PointCloud<PointT>::Ptr& cloud, std::string output_dir,
-                                   std::string file_prefix, std::string config);
+  void run(const typename pcl::PointCloud<PointT>::Ptr& cloud, std::string output_dir,
+           std::string file_prefix, std::string config);
 
   std::string makeFileName(const GridInfo& grid) const;
 
@@ -92,6 +92,7 @@ public:
 
 private:
   typename pcl::PointCloud<PointT>::Ptr cloud_ptr_;
+  typename pcl::PointCloud<PointT>::Ptr merged_ptr_;
   std::string output_dir_, file_prefix_, config_file_;
 
   std::unordered_set<GridInfo> grid_set_;
@@ -108,6 +109,8 @@ private:
   std::unordered_map<GridInfo, pcl::PointCloud<PointT>> grid_to_cloud;
 
   typename pcl::PointCloud<PointT>::Ptr loadPCD(const std::string& pcd_name);
+  void savePCD(const std::string& pcd_name, const pcl::PointCloud<PointT>& cloud);
+  void saveMergedPCD();
   void dividePointCloud(const typename pcl::PointCloud<PointT>::Ptr& cloud_ptr);
   void saveGridPCD();
   void paramInitialize();

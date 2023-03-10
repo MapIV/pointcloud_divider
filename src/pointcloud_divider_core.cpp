@@ -8,7 +8,7 @@
 namespace fs = std::experimental::filesystem;
 
 template <class PointT>
-std::unordered_set<GridInfo> PointCloudDivider<PointT>::run(const typename pcl::PointCloud<PointT>::Ptr& cloud_ptr,
+void PointCloudDivider<PointT>::run(const typename pcl::PointCloud<PointT>::Ptr& cloud_ptr,
                                                             std::string output_dir, std::string file_prefix,
                                                             std::string config)
 {
@@ -21,11 +21,11 @@ std::unordered_set<GridInfo> PointCloudDivider<PointT>::run(const typename pcl::
   paramInitialize();
   dividePointCloud(cloud_ptr);
   saveGridPCD();
-  return grid_set_;
+  saveMergedPCD();
 }
 
 template <class PointT>
-std::unordered_set<GridInfo> PointCloudDivider<PointT>::run(std::vector<std::string> pcd_names, std::string output_dir,
+void PointCloudDivider<PointT>::run(std::vector<std::string> pcd_names, std::string output_dir,
                                                             std::string file_prefix, std::string config)
 {
   output_dir_ = output_dir;
@@ -43,7 +43,7 @@ std::unordered_set<GridInfo> PointCloudDivider<PointT>::run(std::vector<std::str
     dividePointCloud(cloud_ptr);
     saveGridPCD();
   }
-  return grid_set_;
+  saveMergedPCD();
 }
 
 template <class PointT>
@@ -57,6 +57,26 @@ typename pcl::PointCloud<PointT>::Ptr PointCloudDivider<PointT>::loadPCD(const s
     exit(1);
   }
   return cloud_ptr;
+}
+
+template <class PointT>
+void PointCloudDivider<PointT>::savePCD(const std::string& path, const pcl::PointCloud<PointT>& cloud)
+{
+  if (pcl::io::savePCDFileBinary(path, cloud) == -1)
+  {
+    std::cerr << "Error: Cannot save PCD: " << path << std::endl;
+    exit(1);
+  }
+}
+
+template <class PointT>
+void PointCloudDivider<PointT>::saveMergedPCD()
+{
+  if (merge_pcds_)
+  {
+    std::string filename = output_dir_ + "/" + file_prefix_ + ".pcd";
+    savePCD(filename, *merged_ptr_);
+  }
 }
 
 template <class PointT>
@@ -107,7 +127,6 @@ std::string PointCloudDivider<PointT>::makeFileName(const GridInfo& grid) const
 template <class PointT>
 void PointCloudDivider<PointT>::saveGridPCD()
 {
-  typename pcl::PointCloud<PointT>::Ptr merged_cloud(new pcl::PointCloud<PointT>);
   for (std::pair<GridInfo, pcl::PointCloud<PointT>> e : grid_to_cloud)
   {
     grid_set_.insert(e.first);
@@ -115,11 +134,7 @@ void PointCloudDivider<PointT>::saveGridPCD()
     if (fs::exists(file_name))
     {
       pcl::PointCloud<PointT> tmp;
-      if (pcl::io::loadPCDFile(file_name, tmp) == -1)
-      {
-        std::cerr << "Error: Cannot save PCD: " << file_name << std::endl;
-        exit(1);
-      }
+      tmp = *loadPCD(file_name);
       e.second += tmp;
     }
 
@@ -149,7 +164,7 @@ void PointCloudDivider<PointT>::saveGridPCD()
 
     if (merge_pcds_)
     {
-      *merged_cloud += e.second;
+      *merged_ptr_ += e.second;
     }
     else if (pcl::io::savePCDFileBinary(file_name, e.second) == -1)
     {
@@ -160,12 +175,6 @@ void PointCloudDivider<PointT>::saveGridPCD()
 
   if (merge_pcds_)
   {
-    std::string filename = output_dir_ + "/" + file_prefix_ + ".pcd";
-    if (pcl::io::savePCDFileBinary(filename, *merged_cloud))
-    {
-      std::cerr << "Error: Cannot save PCD: " << filename << std::endl;
-      exit(1);
-    }
   }
 
   grid_to_cloud.clear();
@@ -191,6 +200,9 @@ void PointCloudDivider<PointT>::paramInitialize()
 
   g_grid_size_x_ = grid_size_x_ * 10;
   g_grid_size_y_ = grid_size_y_ * 10;
+
+  if (merge_pcds_)
+    merged_ptr_.reset(new pcl::PointCloud<PointT>);
 }
 
 template class PointCloudDivider<pcl::PointXYZ>;
