@@ -118,8 +118,8 @@ std::string PointCloudDivider<PointT>::makeFileName(const GridInfo& grid) const
       fs::create_directory(file_name);
   }
 
-  file_name = file_name + file_prefix_ + "_";
-  file_name = file_name + std::to_string(grid.x) + "_" + std::to_string(grid.y) + ".pcd";
+  file_name = file_name + file_prefix_;
+  file_name = file_name + std::to_string(grid.x).substr(0, 3) + std::to_string(grid.y).substr(0, 3) + ".pcd";
 
   return file_name;
 }
