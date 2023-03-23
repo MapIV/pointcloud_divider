@@ -114,6 +114,7 @@ private:
   void dividePointCloud(const typename pcl::PointCloud<PointT>::Ptr& cloud_ptr);
   void saveGridPCD();
   void paramInitialize();
+  void saveGridInfoToYAML(const std::string& yaml_file_path);
 };
 
 #endif
