@@ -1,15 +1,16 @@
 # pointcloud_divider
 
-(Updated 2023/03/01)
+(Updated 2023/03/27)
 
 Dividing large PCD files into 2D grids.
+
+**Currently, only pcl::PointXYZI is supported. Any PCD will be loaded as pcl::PointXYZI.**
 
 ## Installation
 
   ```
   mkdir -p hoge_ws/src
   cd hoge_ws/src
-  git clone git@github.com:MapIV/map4_point_type.git
   git clone git@github.com:MapIV/pointcloud_divider.git
   rosdep update
   rosdep install -y --from-paths src --ignore-src --rosdistro $ROS_DISTRO
