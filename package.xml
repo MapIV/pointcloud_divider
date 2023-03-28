@@ -7,8 +7,6 @@
   <license>BSD-3-Clauses</license>
   <buildtool_depend>ament_cmake</buildtool_depend>
 
-  <depend>map4_point_type</depend>
-  
   <export>
   </export>
 </package>

@@ -1,49 +1,35 @@
 cmake_minimum_required(VERSION 3.5)
 project(pointcloud_divider)
 
-if(NOT CMAKE_CXX_STANDARD)
-  set(CMAKE_CXX_STANDARD 17)
-endif()
+# Enable support for C++14
+if (${CMAKE_VERSION} VERSION_LESS "3.1.0")
+  set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14")
+else ()
+  set(CMAKE_CXX_STANDARD 14)
+endif ()
 
-find_package(ament_cmake REQUIRED)
-find_package(map4_point_type REQUIRED)
-find_package(yaml_cpp_vendor REQUIRED)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -lstdc++fs")
 
-include_directories(include)
+find_package(PkgConfig REQUIRED)
+pkg_check_modules(YAML_CPP REQUIRED yaml-cpp)
+
+find_package(PCL REQUIRED)
+
+include_directories(
+  include
+  ${PCL_INCLUDE_DIRS}
+)
 
 add_library(${PROJECT_NAME} SHARED src/pointcloud_divider_core.cpp)
-ament_target_dependencies(${PROJECT_NAME}
-  map4_point_type
-  yaml_cpp_vendor
-)
+target_link_libraries(${PROJECT_NAME} PUBLIC ${YAML_CPP_LIBRARIES} ${PCL_LIBRARIES} -lstdc++fs)
 
 add_executable(${PROJECT_NAME}_node
   src/pointcloud_divider_core.cpp
   src/pointcloud_divider_node.cpp
 )
-ament_target_dependencies(${PROJECT_NAME}_node
-  map4_point_type
-  yaml_cpp_vendor
-)
-target_link_libraries(${PROJECT_NAME}_node ${PROJECT_NAME})
+target_link_libraries(${PROJECT_NAME}_node PUBLIC ${YAML_CPP_LIBRARIES} ${PCL_LIBRARIES} -lstdc++fs)
 
-install(TARGETS ${PROJECT_NAME}
-  ARCHIVE DESTINATION lib
-  LIBRARY DESTINATION lib
-)
-
-install(TARGETS ${PROJECT_NAME}_node
-  RUNTIME DESTINATION lib/${PROJECT_NAME}
-)
-
-install(DIRECTORY include/
-  DESTINATION include
-)
-
-ament_export_dependencies(ament_cmake)
-ament_export_dependencies(map4_point_type)
-ament_export_dependencies(yaml_cpp_vendor)
 ament_export_include_directories(include)
+ament_export_dependencies(PCL)
 ament_export_libraries(${PROJECT_NAME})
-
 ament_package()

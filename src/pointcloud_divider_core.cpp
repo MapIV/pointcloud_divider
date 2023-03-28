@@ -231,10 +231,8 @@ void PointCloudDivider<PointT>::saveGridInfoToYAML(const std::string& yaml_file_
   yaml_file.close();
 }
 
-template class PointCloudDivider<pcl::PointXYZ>;
+// template class PointCloudDivider<pcl::PointXYZ>;
 template class PointCloudDivider<pcl::PointXYZI>;
-template class PointCloudDivider<pcl::PointXYZINormal>;
-template class PointCloudDivider<pcl::PointXYZRGB>;
-template class PointCloudDivider<pcl::PointNormal>;
-template class PointCloudDivider<PointXYZISC>;
-template class PointCloudDivider<PointXYZIRGBSC>;
+// template class PointCloudDivider<pcl::PointXYZINormal>;
+// template class PointCloudDivider<pcl::PointXYZRGB>;
+// template class PointCloudDivider<pcl::PointNormal>;
