@@ -5,8 +5,10 @@
   <description>The pointcloud divider package</description>
   <maintainer email="tomoya.sato@map4.jp">Tomoya-Sato</maintainer>
   <license>BSD-3-Clauses</license>
-  <buildtool_depend>ament_cmake</buildtool_depend>
-
+  <build_depend>ament_cmake</build_depend>
+  <exec_depend>ament_index_cpp</exec_depend>
+  <build_depend>yaml-cpp</build_depend>
+  <exec_depend>yaml-cpp</exec_depend>
   <export>
   </export>
 </package>
