@@ -1,11 +1,11 @@
 #include <pointcloud_divider/pointcloud_divider.hpp>
 
-#include <experimental/filesystem>
+#include <filesystem>
 
 #include <pcl/common/transforms.h>
 #include <pcl/filters/voxel_grid.h>
 
-namespace fs = std::experimental::filesystem;
+namespace fs = std::filesystem;
 
 template <class PointT>
 void PointCloudDivider<PointT>::run(const typename pcl::PointCloud<PointT>::Ptr& cloud_ptr,
@@ -44,6 +44,8 @@ void PointCloudDivider<PointT>::run(std::vector<std::string> pcd_names, std::str
     saveGridPCD();
   }
   saveMergedPCD();
+  std::string yaml_file_path = output_dir_ + "/" + file_prefix_ + "_metadata.yaml";
+  saveGridInfoToYAML(yaml_file_path);
 }
 
 template <class PointT>
@@ -205,10 +207,32 @@ void PointCloudDivider<PointT>::paramInitialize()
     merged_ptr_.reset(new pcl::PointCloud<PointT>);
 }
 
-template class PointCloudDivider<pcl::PointXYZ>;
+template <class PointT>
+void PointCloudDivider<PointT>::saveGridInfoToYAML(const std::string& yaml_file_path)
+{
+  std::ofstream yaml_file(yaml_file_path);
+
+  if (!yaml_file.is_open())
+  {
+    std::cerr << "Error: Cannot open YAML file: " << yaml_file_path << std::endl;
+    exit(1);
+  }
+
+  yaml_file << "x_resolution: " << grid_size_x_ << std::endl;
+  yaml_file << "y_resolution: " << grid_size_y_ << std::endl;
+
+  for (const GridInfo& grid : grid_set_)
+  {
+    std::string file_name = makeFileName(grid);
+    fs::path p(file_name);
+    yaml_file << p.filename().string() << ": [" << grid.x << ", " << grid.y << "]" << std::endl;
+  }
+
+  yaml_file.close();
+}
+
+// template class PointCloudDivider<pcl::PointXYZ>;
 template class PointCloudDivider<pcl::PointXYZI>;
-template class PointCloudDivider<pcl::PointXYZINormal>;
-template class PointCloudDivider<pcl::PointXYZRGB>;
-template class PointCloudDivider<pcl::PointNormal>;
-template class PointCloudDivider<PointXYZISC>;
-template class PointCloudDivider<PointXYZIRGBSC>;
+// template class PointCloudDivider<pcl::PointXYZINormal>;
+// template class PointCloudDivider<pcl::PointXYZRGB>;
+// template class PointCloudDivider<pcl::PointNormal>;

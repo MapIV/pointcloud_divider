@@ -11,8 +11,6 @@
 #include <pcl/io/pcd_io.h>
 #include <pcl/filters/voxel_grid.h>
 
-#include <map4_point_type/map4_point_type.h>
-
 struct GridInfo
 {
   int x, y, gx, gy;
@@ -114,6 +112,7 @@ private:
   void dividePointCloud(const typename pcl::PointCloud<PointT>::Ptr& cloud_ptr);
   void saveGridPCD();
   void paramInitialize();
+  void saveGridInfoToYAML(const std::string& yaml_file_path);
 };
 
 #endif

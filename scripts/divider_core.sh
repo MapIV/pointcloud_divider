@@ -5,7 +5,7 @@ DIV_DIR=${SCRIPT_DIR%/*}
 SRC_DIR=${DIV_DIR%/*}
 BASE_DIR=${SRC_DIR%/*}
 
-PCD_DIV=$BASE_DIR"/devel/lib/pointcloud_divider/pointcloud_divider_node"
+PCD_DIV=$BASE_DIR"/../install/pointcloud_divider/lib/pointcloud_divider/pointcloud_divider_node"
 
 # Show usage
 function usage() {
