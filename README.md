@@ -8,29 +8,27 @@ Dividing large PCD files into 2D grids.
 
 ## Installation
 
-  ```
-  mkdir -p hoge_ws/src
-  cd hoge_ws/src
-  git clone git@github.com:MapIV/pointcloud_divider.git
-  rosdep update
-  rosdep install -y --from-paths src --ignore-src --rosdistro $ROS_DISTRO
-  colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release
-  ```
+```bash
+$ git clone https://github.com/MapIV/pointcloud_divider.git
+$ cd pointcloud_divider
+$ mkdir build
+$ cd build
+$ cmake ..
+$ make
+```
 
 ## Usage
 
   * Select directory, process all files found with `find $INPUT_DIR -name "*.pcd"`.
 
-  ```
-  cd hoge_ws
-  ./src/pointcloud_divider/scripts/pointcloud_divider.sh <INPUT_DIR> <OUTPUT_DIR> <PREFIX> <CONFIG>
+  ```bash
+  $ ./scripts/pointcloud_divider.sh <INPUT_DIR> <OUTPUT_DIR> <PREFIX> <CONFIG>
   ```
 
   * Select individual files
 
-  ```
-  cd hoge_ws
-  ./src/pointcloud_divider/scripts/divider_core.sh <PCD_0> ... <PCD_N> <OUTPUT_DIR> <PREFIX> <CONFIG>
+  ```bash
+  $ ./scripts/divider_core.sh <PCD_0> ... <PCD_N> <OUTPUT_DIR> <PREFIX> <CONFIG>
   ```
 
   | Name       | Description                                  |

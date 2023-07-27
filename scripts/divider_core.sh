@@ -2,10 +2,7 @@
 
 SCRIPT_DIR=$(cd $(dirname $0); pwd)
 DIV_DIR=${SCRIPT_DIR%/*}
-SRC_DIR=${DIV_DIR%/*}
-BASE_DIR=${SRC_DIR%/*}
-
-PCD_DIV=$BASE_DIR"/../install/pointcloud_divider/lib/pointcloud_divider/pointcloud_divider_node"
+PCD_DIV=$DIV_DIR"/build/pointcloud_divider"
 
 # Show usage
 function usage() {

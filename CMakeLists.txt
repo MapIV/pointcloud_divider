@@ -8,31 +8,19 @@ else ()
   set(CMAKE_CXX_STANDARD 17)
 endif ()
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -lstdc++fs")
-
-find_package(PkgConfig REQUIRED)
-pkg_check_modules(YAML_CPP REQUIRED yaml-cpp)
-
+# Find packages
+find_package(yaml-cpp REQUIRED)
 find_package(PCL REQUIRED)
 
-find_package(ament_cmake REQUIRED)
+include_directories(include)
 
-include_directories(
-  include
-  ${PCL_INCLUDE_DIRS}
+# Add source files
+set(SOURCES
+    src/pointcloud_divider_core.cpp
+    src/pointcloud_divider.cpp
 )
 
-add_library(${PROJECT_NAME} SHARED src/pointcloud_divider_core.cpp)
-target_link_libraries(${PROJECT_NAME} PUBLIC ${YAML_CPP_LIBRARIES} ${PCL_LIBRARIES} -lstdc++fs)
+add_executable(pointcloud_divider ${SOURCES})
 
-add_executable(${PROJECT_NAME}_node
-  src/pointcloud_divider_core.cpp
-  src/pointcloud_divider_node.cpp
-)
-target_link_libraries(${PROJECT_NAME}_node PUBLIC ${YAML_CPP_LIBRARIES} ${PCL_LIBRARIES} -lstdc++fs)
-
-ament_export_include_directories(include)
-ament_export_dependencies(PCL)
-ament_export_libraries(${PROJECT_NAME})
-ament_package()
-
+# Linking libraries
+target_link_libraries(pointcloud_divider yaml-cpp ${PCL_LIBRARIES})
