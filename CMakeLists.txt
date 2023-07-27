@@ -1,38 +1,21 @@
-cmake_minimum_required(VERSION 2.8.3)
+cmake_minimum_required(VERSION 3.10)
 project(pointcloud_divider)
 
-# Enable support for C++14
-if (${CMAKE_VERSION} VERSION_LESS "3.1.0")
-  set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14")
-else ()
-  set(CMAKE_CXX_STANDARD 14)
-endif ()
+set(CMAKE_CXX_STANDARD 17)
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -lstdc++fs")
+# Find packages
+find_package(yaml-cpp REQUIRED)
+find_package(PCL REQUIRED)
 
-find_package(PkgConfig REQUIRED)
-pkg_check_modules(YAML_CPP REQUIRED yaml-cpp)
+include_directories(include)
 
-find_package(catkin REQUIRED COMPONENTS
-  map4_point_type
+# Add source files
+set(SOURCES
+    src/pointcloud_divider_core.cpp
+    src/pointcloud_divider.cpp
 )
 
-catkin_package(
-  INCLUDE_DIRS include
-  CATKIN_DEPENDS map4_point_type
-  LIBRARIES ${PROJECT_NAME}
-)
+add_executable(pointcloud_divider ${SOURCES})
 
-include_directories(
-  include
-  ${catkin_INCLUDE_DIRS}
-)
-
-add_library(${PROJECT_NAME} SHARED src/pointcloud_divider_core.cpp)
-target_link_libraries(${PROJECT_NAME} PUBLIC ${catkin_LIBRARIES} ${YAML_CPP_LIBRARIES} -lstdc++fs)
-
-add_executable(${PROJECT_NAME}_node
-  src/pointcloud_divider_core.cpp
-  src/pointcloud_divider_node.cpp
-)
-target_link_libraries(${PROJECT_NAME}_node PUBLIC ${catkin_LIBRARIES} ${YAML_CPP_LIBRARIES} -lstdc++fs)
+# Linking libraries
+target_link_libraries(pointcloud_divider yaml-cpp ${PCL_LIBRARIES})

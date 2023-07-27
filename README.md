@@ -6,15 +6,14 @@ Dividing large PCD files into 2D grids.
 
 ## Installation
 
-  ```
-  mkdir -p hoge_ws/src
-  cd hoge_ws/src
-  git clone git@github.com:MapIV/map4_point_type.git
-  git clone git@github.com:MapIV/pointcloud_divider.git
-  rosdep update
-  rosdep install -y --from-paths src --ignore-src --rosdistro $ROS_DISTRO
-  catkin_make -DCMAKE_BUILD_TYPE=Release
-  ```
+```bash
+$ git clone https://github.com/MapIV/pointcloud_divider.git
+$ cd pointcloud_divider
+$ mkdir build
+$ cd build
+$ cmake ..
+$ make
+```
 
 ## Usage
 
