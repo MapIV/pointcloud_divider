@@ -21,16 +21,14 @@ $ make
 
   * Select directory, process all files found with `find $INPUT_DIR -name "*.pcd"`.
 
-  ```
-  cd hoge_ws
-  ./src/pointcloud_divider/scripts/pointcloud_divider.sh <INPUT_DIR> <OUTPUT_DIR> <PREFIX> <CONFIG>
+  ```bash
+  $ ./scripts/pointcloud_divider.sh <INPUT_DIR> <OUTPUT_DIR> <PREFIX> <CONFIG>
   ```
 
   * Select individual files
 
-  ```
-  cd hoge_ws
-  ./src/pointcloud_divider/scripts/divider_core.sh <PCD_0> ... <PCD_N> <OUTPUT_DIR> <PREFIX> <CONFIG>
+  ```bash
+  $ ./scripts/divider_core.sh <PCD_0> ... <PCD_N> <OUTPUT_DIR> <PREFIX> <CONFIG>
   ```
 
   | Name       | Description                                  |
