@@ -39,5 +39,6 @@ int main(int argc, char* argv[])
   PointCloudDivider<pcl::PointXYZI> divider;
   divider.run(pcd_name, output_dir, prefix, config);
 
+  std::cout << "pointcloud_divider has finished successfully" << std::endl;
   return 0;
 }
