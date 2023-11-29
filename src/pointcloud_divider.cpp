@@ -1,3 +1,4 @@
+#include <pcl/console/print.h>
 #include <pointcloud_divider/pointcloud_divider.hpp>
 
 void printInvalidArguments()
@@ -8,6 +9,10 @@ void printInvalidArguments()
 
 int main(int argc, char* argv[])
 {
+  // Change the default PCL's log level to suppress the following message:
+  // `Failed to find match for field 'intensity'.`
+  pcl::console::setVerbosityLevel(pcl::console::VERBOSITY_LEVEL::L_ERROR);
+
   int n_pcd;
   std::vector<std::string> pcd_name;
   std::string output_dir, prefix, config;
@@ -33,7 +38,7 @@ int main(int argc, char* argv[])
     printInvalidArguments();
   }
 
-  // Currently only PointXYZI is supported
+  // Currently, any PCD will be loaded as pcl::PointXYZI.
   PointCloudDivider<pcl::PointXYZI> divider;
   divider.run(pcd_name, output_dir, prefix, config);
 

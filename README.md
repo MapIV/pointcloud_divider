@@ -4,7 +4,14 @@
 
 Dividing large PCD files into 2D grids.
 
-**Currently, only pcl::PointXYZI is supported. Any PCD will be loaded as pcl::PointXYZI.**
+## Supported Data Format
+
+**Currently, only `pcl::PointXYZI` is supported. Any PCD will be loaded as `pcl::PointXYZI` .**
+
+This tool can be used with files that have data fields other than `XYZI` (e.g., `XYZRGB`) as well as files that only contain `XYZ`.
+
+* Data fields other than `XYZI` are ignored during loading.
+* When loading `XYZ`-only data, the `intensity` field is assigned 0.
 
 ## Installation
 
