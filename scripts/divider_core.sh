@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# Obtain the path to the application
 SCRIPT_DIR=$(cd $(dirname $0); pwd)
 DIV_DIR=${SCRIPT_DIR%/*}
 PCD_DIV=$DIV_DIR"/build/pointcloud_divider"
@@ -39,24 +40,34 @@ else
 fi
 shift $(($OPTIND - 1))
 
+# Check the number of runtime arguments
+if [ "$#" -ge 5 ]; then
+  echo "Error: divider_core.sh requires more than 5 arguments."
+  usage
+  exit 1
+fi
+
 # Input arguments
 ARGC=$#
 ARGV=("$@")
 
-# Total number of input ROSBAGs
+# Total number of input PCD files
 N_PCD=$(($ARGC-3))
 
-# Prepare ROSBAG names
+# Prepare PCD file names
 PCD_FILES=""
 for (( i=0; i<N_PCD; i++ ))
 do
   PCD_FILES+="${ARGV[i]}"" "
 done
+
 # Remove trailing space if any
 PCD_FILES="$(echo -e "${PCD_FILES}" | sed -e 's/[[:space:]]*$//')"
 
+# Prepare other file pathes
 OUTPUT_DIR=${ARGV[$(($ARGC-3))]}"/"
 PREFIX=${ARGV[$(($ARGC-2))]}
 CONFIG_FILE=${ARGV[$(($ARGC-1))]}
 
+# Call the pointcloud_divider
 $PCD_DIV $N_PCD $PCD_FILES $OUTPUT_DIR $PREFIX $CONFIG_FILE
