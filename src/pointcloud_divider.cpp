@@ -3,7 +3,7 @@
 
 void printErrorAndExit(const std::string& message)
 {
-  std::cerr << "Error: "<< message << std::endl;
+  std::cerr << "Error: " << message << std::endl;
   exit(1);
 }
 
@@ -22,7 +22,8 @@ int main(int argc, char* argv[])
 
   if (argc != 5 + n_pcd)
   {
-    printErrorAndExit("There should be " + std::to_string(5 + n_pcd) + " runtime arguments. input: " + std::to_string(argc) );
+    printErrorAndExit("There should be " + std::to_string(5 + n_pcd) +
+                      " runtime arguments. input: " + std::to_string(argc));
   }
 
   std::vector<std::string> pcd_name;
