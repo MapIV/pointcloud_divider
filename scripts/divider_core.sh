@@ -41,8 +41,8 @@ fi
 shift $(($OPTIND - 1))
 
 # Check the number of runtime arguments
-if [ "$#" -ge 5 ]; then
-  echo "Error: divider_core.sh requires more than 5 arguments."
+if [ "$#" -lt 4 ]; then
+  echo "Error: divider_core.sh requires 4 or more arguments."
   usage
   exit 1
 fi
