@@ -8,9 +8,9 @@
 namespace fs = std::filesystem;
 
 template <class PointT>
-void PointCloudDivider<PointT>::run(const typename pcl::PointCloud<PointT>::Ptr& cloud_ptr,
-                                                            std::string output_dir, std::string file_prefix,
-                                                            std::string config)
+void PointCloudDivider<PointT>::run(const typename pcl::PointCloud<PointT>::Ptr& cloud_ptr, std::string output_dir,
+                                    std::string file_prefix, std::string config)
+
 {
   output_dir_ = output_dir;
   file_prefix_ = file_prefix;
@@ -25,8 +25,8 @@ void PointCloudDivider<PointT>::run(const typename pcl::PointCloud<PointT>::Ptr&
 }
 
 template <class PointT>
-void PointCloudDivider<PointT>::run(std::vector<std::string> pcd_names, std::string output_dir,
-                                                            std::string file_prefix, std::string config)
+void PointCloudDivider<PointT>::run(std::vector<std::string> pcd_names, std::string output_dir, std::string file_prefix,
+                                    std::string config)
 {
   output_dir_ = output_dir;
   file_prefix_ = file_prefix;

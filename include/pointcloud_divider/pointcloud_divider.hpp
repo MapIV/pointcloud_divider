@@ -71,11 +71,10 @@ public:
     return std::pair<double, double>(grid_size_x_, grid_size_y_);
   }
 
-  void run(std::vector<std::string> pcd_names, std::string output_dir, std::string file_prefix,
-           std::string config);
+  void run(std::vector<std::string> pcd_names, std::string output_dir, std::string file_prefix, std::string config);
 
-  void run(const typename pcl::PointCloud<PointT>::Ptr& cloud, std::string output_dir,
-           std::string file_prefix, std::string config);
+  void run(const typename pcl::PointCloud<PointT>::Ptr& cloud, std::string output_dir, std::string file_prefix,
+           std::string config);
 
   std::string makeFileName(const GridInfo& grid) const;
 
