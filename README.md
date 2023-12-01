@@ -4,7 +4,14 @@
 
 Dividing large PCD files into 2D grids.
 
-**Currently, only pcl::PointXYZI is supported. Any PCD will be loaded as pcl::PointXYZI.**
+## Supported Data Format
+
+**Currently, only `pcl::PointXYZI` is supported. Any PCD will be loaded as `pcl::PointXYZI` .**
+
+This tool can be used with files that have data fields other than `XYZI` (e.g., `XYZRGB`) and files that only contain `XYZ`.
+
+* Data fields other than `XYZI` are ignored during loading.
+* When loading `XYZ`-only data, the `intensity` field is assigned 0.
 
 ## Installation
 
@@ -32,12 +39,14 @@ $ make
   ```
 
   | Name       | Description                                  |
-  | -------    | -------------------------                    |
+  |------------|----------------------------------------------|
   | INPUT_DIR  | Directory that contains all PCD files        |
   | PCD_N      | Input PCD file name                          |
   | OUTPUT_DIR | Output directory name                        |
   | PREFIX     | Prefix of output PCD file name               |
   | CONFIG     | Config file ([default](config/default.yaml)) |
+
+ INPUT_DIR, PCD_N OUTPUT_DIR and CONFIG can be specified as both **relative paths** and **absolute paths**.
 
 ## Parameter
 

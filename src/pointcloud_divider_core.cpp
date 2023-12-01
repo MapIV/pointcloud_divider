@@ -19,6 +19,7 @@ void PointCloudDivider<PointT>::run(const typename pcl::PointCloud<PointT>::Ptr&
   grid_set_.clear();
 
   paramInitialize();
+  checkOutputDirectoryValidity();
   dividePointCloud(cloud_ptr);
   saveGridPCD();
   saveMergedPCD();
@@ -34,6 +35,7 @@ void PointCloudDivider<PointT>::run(std::vector<std::string> pcd_names, std::str
 
   grid_set_.clear();
   paramInitialize();
+  checkOutputDirectoryValidity();
 
   for (const std::string& pcd_name : pcd_names)
   {
@@ -49,8 +51,41 @@ void PointCloudDivider<PointT>::run(std::vector<std::string> pcd_names, std::str
 }
 
 template <class PointT>
+void PointCloudDivider<PointT>::checkOutputDirectoryValidity() const
+{
+  if (!std::filesystem::exists(output_dir_))
+  {
+    std::cerr << "Error: " << output_dir_
+              << " does not exist. Please make the directory before execute this application." << std::endl;
+    exit(1);
+  }
+}
+
+template <class PointT>
 typename pcl::PointCloud<PointT>::Ptr PointCloudDivider<PointT>::loadPCD(const std::string& pcd_name)
 {
+  {
+    // Read only the header of the PCD file and warn if the data fields are different from XYZI.
+    pcl::PCDReader reader;
+    pcl::PCLPointCloud2 cloud;
+    if (reader.readHeader(pcd_name, cloud) != 0)
+    {
+      std::cerr << "Error: Cannot load PCD: " << pcd_name << std::endl;
+      exit(1);
+    }
+
+    std::set<std::string> field_set;
+    for (const auto& field : cloud.fields)
+    {
+      field_set.insert(field.name);
+    }
+
+    if (field_set.count("intensity") == 0)
+    {
+      std::cerr << "Warning: " << pcd_name << " does not contains `intensity` field,  substituted with 0." << std::endl;
+    }
+  }
+
   typename pcl::PointCloud<PointT>::Ptr cloud_ptr(new pcl::PointCloud<PointT>);
 
   if (pcl::io::loadPCDFile(pcd_name, *cloud_ptr) == -1)

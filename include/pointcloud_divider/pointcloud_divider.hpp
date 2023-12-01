@@ -112,6 +112,7 @@ private:
   void saveGridPCD();
   void paramInitialize();
   void saveGridInfoToYAML(const std::string& yaml_file_path);
+  void checkOutputDirectoryValidity() const;
 };
 
 #endif
