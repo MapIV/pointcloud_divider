@@ -53,15 +53,13 @@ $ make
 
  `INPUT_DIR`, `PCD_N`, `OUTPUT_DIR` and `CONFIG` can be specified as both **relative paths** and **absolute paths**.
 
+NOTE:  The `OUTPUT_DIR` must already exist. If it does not, an error will occur, and the process will terminate.
+
 ## Parameter
-
-* **use_large_grid**
-
-    Pack output PCD files in larger grid directory.
 
 * **merge_pcds**
 
-    Merge all grid into a single PCD.
+    All PCD files are merge into a single PCD. No divided PCD files are generated.
 
 * **leaf_size**
 
@@ -74,8 +72,16 @@ $ make
    **NOTE: Even if `merge_pcds` is true, this is used to determine the clusters for downsampling.**
    Therefore, when downsampling without splitting the point cloud, users should not set an excessively large value, such as 100,000. Specifying a large grid size will attempt to load all point clouds into memory and process them at once, which will result in abnormal memory usage.
 
+* **use_large_grid**
+
+    Pack output PCD files in larger grid directory.
+    When `merge_pcds` is true, this parameter is ignored.
+    The large grid is fixed at 10 times the size of grid_size_[xy].
+    For example, if the point cloud is divided into 10m x 10m PCD files, a subdirectory like 00100_00100 will contain up to 100 PCD files.
+
 ![node_diagram](docs/how_to_be_downsampled.drawio.svg)
 
+![node_diagram](docs/output_file_name_pattern.drawio.svg)
 
 ## Metadata YAML Format
 
