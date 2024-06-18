@@ -1,13 +1,13 @@
 # pointcloud_divider
 
-(Updated 2023/03/27)
+(Updated 2024/06/18)
 
 This is a tool for processing pcd files, and it can perform the following functions:
 
 * Dividing point clouds
 * Merging point clouds
 * Downsampling point clouds
-* Generating metadata for map_loader in Autoware
+* Generating metadata to efficiently handle the divided point clouds
 
 ## Supported Data Format
 
@@ -86,6 +86,28 @@ How the point cloud is processed.
 How the PCD file is named
 
 ![node_diagram](docs/output_file_name_pattern.drawio.svg)
+
+### Parameter example
+
+1. Dividing a single point cloud without downsampling
+
+```yaml
+  use_large_grid: false
+  merge_pcds: false
+  leaf_size: -1.0 # any negative number
+  grid_size_x: 20
+  grid_size_y: 20
+```
+
+2. Downsampling and merging divide large point clouds into a single file
+
+```yaml
+  use_large_grid: false
+  merge_pcds: true
+  leaf_size: 0.2
+  grid_size_x: 20
+  grid_size_y: 20
+```
 
 ## Metadata YAML Format
 
