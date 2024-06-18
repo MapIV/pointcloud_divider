@@ -4,7 +4,7 @@
 
 This is a tool for processing pcd files, and it can perform the following functions:
 
-* Splitting point clouds
+* Dividing point clouds
 * Merging point clouds
 * Downsampling point clouds
 * Generating metadata for map_loader in Autoware
@@ -68,9 +68,9 @@ NOTE:  The `OUTPUT_DIR` must already exist. If it does not, an error will occur,
 
 * **grid_size_[xy]**
 
-   The size of the grid for splitting point clouds. Size of grid. The unit is meters [m].
+   The size of the grid for dividing point clouds. Size of grid. The unit is meters [m].
    **NOTE: Even if `merge_pcds` is true, this is used to determine the clusters for downsampling.**
-   Therefore, when downsampling without splitting the point cloud, users should not set an excessively large value, such as 100,000. Specifying a large grid size will attempt to load all point clouds into memory and process them at once, which will result in abnormal memory usage.
+   Therefore, when downsampling without dividing the point cloud, users should not set an excessively large value, such as 100,000. Specifying a large grid size will attempt to load all point clouds into memory and process them at once, which will result in abnormal memory usage.
 
 * **use_large_grid**
 
@@ -79,7 +79,11 @@ NOTE:  The `OUTPUT_DIR` must already exist. If it does not, an error will occur,
     The large grid is fixed at 10 times the size of grid_size_[xy].
     For example, if the point cloud is divided into 10m x 10m PCD files, a subdirectory like 00100_00100 will contain up to 100 PCD files.
 
+How the point cloud is processed.
+
 ![node_diagram](docs/how_to_be_downsampled.drawio.svg)
+
+How the PCD file is named
 
 ![node_diagram](docs/output_file_name_pattern.drawio.svg)
 
