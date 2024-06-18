@@ -2,7 +2,12 @@
 
 (Updated 2023/03/27)
 
-Dividing large PCD files into 2D grids.
+This is a tool for processing pcd files, and it can perform the following functions:
+
+* Splitting point clouds
+* Merging point clouds
+* Downsampling point clouds
+* Generating metadata for map_loader in Autoware
 
 ## Supported Data Format
 
@@ -38,33 +43,39 @@ $ make
   $ ./scripts/divider_core.sh <PCD_0> ... <PCD_N> <OUTPUT_DIR> <PREFIX> <CONFIG>
   ```
 
-  | Name       | Description                                  |
-  |------------|----------------------------------------------|
-  | INPUT_DIR  | Directory that contains all PCD files        |
-  | PCD_N      | Input PCD file name                          |
-  | OUTPUT_DIR | Output directory name                        |
-  | PREFIX     | Prefix of output PCD file name               |
-  | CONFIG     | Config file ([default](config/default.yaml)) |
+  | Name            | Description                                  |
+  |-----------------|----------------------------------------------|
+  | INPUT_DIR       | Directory that contains all PCD files        |
+  | PCD_0 ... PCD_N | Input PCD file name                          |
+  | OUTPUT_DIR      | Output directory name                        |
+  | PREFIX          | Prefix of output PCD file name               |
+  | CONFIG          | Config file ([default](config/default.yaml)) |
 
- INPUT_DIR, PCD_N OUTPUT_DIR and CONFIG can be specified as both **relative paths** and **absolute paths**.
+ `INPUT_DIR`, `PCD_N`, `OUTPUT_DIR` and `CONFIG` can be specified as both **relative paths** and **absolute paths**.
 
 ## Parameter
 
-  * use_large_grid
+* **use_large_grid**
 
-    Pack output PCD files in larger grid directory
+    Pack output PCD files in larger grid directory.
 
-  * merge_pcds
+* **merge_pcds**
 
-    Merge all grid into a single PCD
+    Merge all grid into a single PCD.
 
-  * leaf_size
+* **leaf_size**
 
-    leaf_size of voxel grid filter [m]
+    The leaf_size of voxel grid filter for pointcloud downsampling. The unit is meters [m].
+    If the value is less than or equal to 0, downsampling is skipped.
 
-  * grid_size_x(/y)
+* **grid_size_[xy]**
 
-    Size of grid [m]
+   The size of the grid for splitting point clouds. Size of grid. The unit is meters [m].
+   **NOTE: Even if `merge_pcds` is true, this is used to determine the clusters for downsampling.**
+   Therefore, when downsampling without splitting the point cloud, users should not set an excessively large value, such as 100,000. Specifying a large grid size will attempt to load all point clouds into memory and process them at once, which will result in abnormal memory usage.
+
+![node_diagram](docs/how_to_be_downsampled.drawio.svg)
+
 
 ## Metadata YAML Format
 

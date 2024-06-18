@@ -1,0 +1,617 @@
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1206px" height="358px" viewBox="-0.5 -0.5 1206 358" content="&lt;mxfile&gt;&lt;diagram id=&quot;iraEKwmrkTGZdc09rBl8&quot; name=&quot;Page-1&quot;&gt;7Z1bc5tKFoV/jV9T0Nwf42QuL2cmVZmqeUxhgWRqZKFCOHby6wdkJEu7UYxP0NoMa5KqxEKiZb7uXvTa3fS+8T49PP+tSrf3f5RZvr4xTvZ8432+MSaKnObf9sCPlwOuG3ZHVlWRdcdeD3wtfubdwcPHHoss3519sC7LdV1szw8uys0mX9Rnx9KqKp/OP7Ys1+ffuk1XuXXg6yJd20f/XWT1/cvR2ESvx/+eF6v7+nh9ycs7D+nhw92V7O7TrHw6OeT95cb7VJVl/fLTw/OnfN3CO3B5Oe+vF949/mJVvqmHnOC9nPA9XT9219b9XvWPw8U2JzRcmxe3T/dFnX/dpov2naemaptj9/XDunnlNj8ui/X6U7kuq/15Xpbm8XLRHN/VVfmf/OSdcBHnd8vmnbIpq6jbVtD8mt5t97vkVZ0/X7we90ipaV55+ZDX1Y/mI90JgdOBPTStQ1t7eq0n9wD//qSO4u5Y2jWN1bHoV3rNDx3Afpj+FWEGeZz5fTBjc+eF4XVgJgKmC4QZDIC5yT62vbl5tSk3LdQs3d3nWYfwhObLqXlmdes3UZxcatBzpYdjVb5O6+L7efF9l999w5eyaL74YrM1iSC4Kx+rRd6dddqf3yhIllOn1SqvrXL2lXG86kH1E1LVjz9W/fio+omo6iceq35iVP3ETPUTmpHqRxZ0vfpJqOonHKt+QlT9HMYiHBUUjTVAkAVdsYJcqgoaa4QgC7piBRnmCpr+CNsdYs5nWz+uN1IFWQWNWENDHP98aygaq4ZkQSPWEFUYwboJuSPVkFXQiDVEFUiwaigYq4ZkQSPWEFUoYbSB3JsxvRFraEgwYWjkOd1tX+ZMlsVzW4EyFL0M2r/t8XJTnxx/+dMb79//GSkm7RuhTN3r09bR0zguN4OhAWl3SERgJpADLciH8A4D5FAN8hBnPhPIkRrkMadWJw5ZarKBQR5zynXikKUm4yAP8VAzgSw1GQd5iA2aCWSpyTjIQ5zMTCBLTfZgkInMiNRkHGQiMyI1GQbZIzIjUpNxkInMiNRkHwbZ8ECWmoyDTOT4pCbjIBM5PqnJOMhEji8WkGEBIo/I8SVqkHkcX+ioQeZxfKGrBpnI8UlNdlCQfSLHJzUZB5nH8VmajIPM4/gsTcZBJnJ8UpMNDDKR45OajIPM4/gsTcZB5jEjllzA4sk+jxmx5AIGOeAZwllBe9jo4hDIZoAsg/Y4yERDOBm0x0EmGsLJoD0OMs8QTo4u3AQGmTdoD4TMM06WZgQImSierBaFC4niyWpRuJDIjBg1yERmxFODTGRG1GarQyIzojZbHRKZEanJOMhEZkRqMg4yjxmxbHUMg8wbtMdBjnhufHJJgBuhIMdEkD2tlhzzjC5CXw0yz+giDNQg84wuQjFOBmoyz+jC0mQcZJ54sqXJMMgJTzzZ0mQcZKKWLJYE4G58rsMT67Qow5qy6xDZkUiPMpEfkTEiIGXisXKIo0w8WAZSJhpjyNEyjvKgHBEzoSyHy0DKPOsvLF0OcJQND2Wpy0DKRK5E6jKQMpErkboMpEzkSqQuw7bKcQflL5gJZanLQMpE3k/qMpAykfeTugykTOT9pC7DnlA95iVmoCx1GUiZyPtJXQZSJvJ+UpeBlIm8n5yRwkWLiFI2WDNSQMpE3k/OSAEpE3k/uWwZSJnI+0ldxkWLiNI2WLoMpEzk/aQu4ygTJW6wdBlImcj7SV3GRYuIUjdYugykTOT9pC4DKRN5P6nLQMpE3k/qMi5aRJS+wdJlIGUi7yd1GUiZyPtJXcZRJt73HhgtIt74HkmZZyRnbdiAc9jEu7IjKRON5KRiACnzjDEsxcB5P58oviwVA0c5IIovS8UAUiaKycm2jHMlRHuzW20ZSJloJGcEZYOjTDSSk2s+gZSJYnJyzSeQMs942VrziaNMtEG7pRiwLVRdoh3aLcUAUjY8lKVi4Cgz76KK02WmfRHlHDaQMtEYQ85hAykTxeTkHDaOckI0xpCKAbv7GaI9uCK1GSlDtKOORRkWXzZEz2HLJLa4NHOG6DlsmcUWSZlHMWQaWyRlw0NZjpeBlHnm/Sxdhu2/bIiew7Z0GUiZZ97P0mUgZZ55P0uXgZR5vJ+ly7Bdrg3Rc9iWLgMpE3k/tewDhug5bEuXcZSJVolbuVZhK7gM0SpxK9kqkDLR3U8mZzY4ykR3P6kYOMpEq8QtxQBSNjyU5XoMXEyOaC2+VAwkZaKYnFyNCKRMFMeQbRkXLSJav2y1ZRzlcEhb3mQfq6p8al4t1uluVyz2QNKqtg+fMH8pJ89W+XuxnF6203Pd3bEqX6d18f28+D4a3Td8KYvmi08cd/IhOOMeOedl7MrHapF3p71CtUoKD3PUF8ppUK3y2ipnXznHyx5YX3avWFVF9m1X/My/PVtV17TJWvSEdbHatFXWVELetOXbtuUWi3T9sXvjociy9vTbKm8KTe/2RTnN6237+++vKLi9CT63ZT3WZfvFXdHnfWRTbnLR0Q6Hmj72tfsdD9POvxcGjM7w+47Ve5KeZuQ5l1vM8P4zxAnNs//48XmrdyXQod3HKuiK/SeyPdVr//nB2X+8JBAVad9+rtaBoiELT/5cB2pO+3pKt/n8yeupd68olN0r+SBv+UN7mFWWn3yIRFljdjLbUq/zdLnvZJxdLIpEBZjj2OOkNUVX62Rjum8xdM7SPF4ueofIizi/W44zRD6m4pT3iBN8x5Qtp/ziUfiN6aslvyCPM7+PX2zuvLEshnEEPxfKz55h+vLp8zd3gBgM7bHDRaOveqrycZO1xnAvI2O0V1/wTuzuHl6tu9tTTS1uu83OBveR2y+GMNfDbXvoYrN9bO+/20XW/Nvwy3cThV82bxZ1i804hxvfy/3SjNUVhDvuUZ6jOo1dN37PXrb/+Oe/ms9+bA+Wz3n76ax82uzSh+262Kzak3ft9eXVsqwe8uzl53aomC7um/9au8A5iPGNLwImXk9dev6V6jLo6WdWRaya1r29eK2LcrPJF3UH++b4bMFwBolYctSzY6JxemJ1x02Vf0tpEuQsyoCBXcOzTotN276HK3lXj5ebmZQLu41dKRiaIKdPtPAGeniR64y08EqnDcSLXGCkhVf6aCBe5KzfVLS35/5+LbzI6b6paC8QL3LF1lS0F4bXO8jQrPFK7QXiRT6dOhXtNTi8hgCv1F4gXgbXJrUXiJfBtVnzRzi8DK5Naq+Hw8vg2qT2AvEyuDZrpQAOL4Nrk9oLxMvg2uTqL1hI5zh7MWu8iR5eBtfmyoUVQL4Mts1a+APky+DbhPomOLoMti1Ro8vg2qT2AvEyuDYpvUC8DK5Njntx4XSXwbXJcS8QL4Nrs8a9OL7QHWGnog64gK9hsG1SHYB4GVybrzVygO79OpFwOpAug2cL1egyeLZIjS6DZROjhhhHl8GxJWp0GQybdBRAvLM2bHClhe7aqtdale5jHoM9M2p0GdyZp0Z31u4MP0PpMfgxvQngnoeH54fXejobh5fBkcmNCYB4GSyZMLw9u8Jciy6DJUvU6M7akV2YXw9heH0Kh+ZptV6fwaLJHY6AeBk8mhuo4Z21SbuwKRFQeyk8m6eGl8GzSe0F4mXwbFJ7gXgZPJsbqt3aGEybxAtsvRSuLdLCC80HpYY3VsNL4drEuDfA4aVwbZ4aXgrX5qvhpXBtgRpeCtcmtLcnT8218FK4Nk8NL4Vr89XwUri2QA0vhWsT2ovbwyWkcG2eGl4K1+ar4aVwbYEaXgrXJrQX96xlSOHaPDW8FK7NV8NL4doCNbwUri3UCun0ZCqeId5IDS+Fa4u18PbkCZ4h3kQNL4VrC7VCOj0JeGeIN1LDS+HaYjW8FK4tUcNL4dpCrZBOT/LdGeKN1PBSuLZYDS+Fa0vU8FK4tlArpBNTuLZIDS+Fa4vV8FK4tkQNL4Vrc7RCOjGFa3PV8DK4NjVPHFOYNkcNL4Vpc9XwMpg2Nc8WU3g2RwtvQuHZXDW8FJ7N0TIVCYVnc9XwUng2aws+GF4Kz2ZtwQfDy+DZ5PpIIF4K0yZzZ+PwUpg24EiMwaW5ONebUPgyWITRdxiNGExOfYfCiIVqeCmMWKSGl8KIyaSLOLwURgy2l5PvMDgvozWf4zsMzkvihTkF32FwXiJsAMv25TsMPixQo8vgykItui6DR4vU6DJYNK1t+32XwaFp7drvuwwGTWvjaN9l8GeRGl0Gt6a1Zb/vMpg1rR37fZfBq2ntKO+7DF5Na0N532XwanJxDWzxkm8YzJpcXAPEy+DW5HQlbkriQHPWeKU4APEy+DUpDkC8DIbN1QqUGQbDZtToMhg2T40ug2EzWqEcw2DYtBILB0N2Z1lV5eP24mU2PDYN0/Tu8HHHvnz3lxefHBI5HR4G8Yx1+cbpAeB6YzSwmeRdj3/J2FpSD+u/M0m8/mu81pJ6GN6ZJF7/NV5rDSgO7zxCAr/Ga60BxeGdR0jgfdqL86wzSbz+Pu0F4p1HSOB92gvEO4+YwPu0F4h3HkGB92kvbjJhJonX36e9QLwMrk1qLxAvg2uT2ovDO5PE6+/TXtzjDjNJvP4+7QXiZXBtUnuBeBlcm9ReIF6oawvyOPP78Mbmrs3HdiW81nOnOLxQ16aEN9HDC3VtSnjl7mtIvlDbpsXX2rMCxxfp25bxIl/03tzu4qAdhGPUN8HRRdo2LbqJFl1o4nUtulJ7gXiRrk0Nr6uGF+raJjLuxYXTsYnXJzLuBeJlcG3WuBfIl8G2SXXABXyxmdcnog5AvEjXtlwuTf/QIQvvwuBqeH21kQPUsynRDdToQj2bEt1Qiy407boW3UiNLoNlE6MG3IMl0KTrE4nmAOkiDdtUojlAvEjDtlzm4QXhjZI7Z3y8eKVF+jM4zv7HT4F0kfZMi65Ro4t1Zzp0PTW6s55Rw89QQjOq640LzlorEC80o7oWXiv/Fg4vgyOz8m/h8DJYMmF4cc/6QxOqT8TwAukyPK4m59dxe9/NJJ/6G3i1dqrwZ5JQ/Q28antpzySh+ht41TbTnklC9TfwGjXtZXhcTWovDu9MMqq/T3uBeBkeV5PaC8SL9GxqS8fUMhlgM6pPBC+w9VIsfFTbsRybUV0Lb6yGl2FiTY57cRmWoRnV1fB6anixCx+V8PpqeLErH5XwBkp4A2j69aloLyxlbQBNvz4V7QXiRbq2qWgvEC90qm0i2gvEO+vVjxe0F7aHSwDNxj4V7QXipXBtvhpeCtcWqOGlcG1Ce2HPWgYOhWvztPBCE7JPRXuBeClcW6CGF+ratBZPh1ohHWhOdjW8kRpeqGvTwhur4YW6Ni28iRpeqGubiPbiQjrQvOxT0V4g3lk/xnZBe4F4KZ5qS7TwQjOzT0V7cSEdA3VtE9FeIF4K1xar4aVwbYkaXgrXFmqFdAyFa4vU8FK4tlgNL4VrS9TwIl1b7mZBHvXhTcLIS2Hb8uJCOgbp2tTwulp4PaRr08Kr5ok9pGmbijYA8SJN21S0AYgXadomog04z+YhPdtUtAGIF+nZpqINQLxIzzaV1oszFR7Ss02l9QLxQvci0Xrk1dqCD4YXuheJFl5rCz4UXh/p2dTwytzZOLzQvUi08Mrc2Ti8SNOmLg4AnhSbj+Bcr0+x2wguwuhTbApp7SYNw4t9UE0nu4+c+gXiZUirJqd+gXgZ8qrJqV8gXuyDasricH2eAdJ56SVJ0ZpwCBieTJN4cU4hQDqviaQIhWX7CgLsdiKTSBEKpIvdTWQSKUKBdLGbiUwiRSiQLoNF09q2PwgYHJrWrv1BwGDQtDaODgIGfxZp0Q2xbm0SuovzwiHWrE1Cd4F0Gbya1o7yQcjg1bQ2lA9ChqfR5OIa3OKlkOFpNLm4BoiX4mk0gRc3JREyPI0mxQGIl2EPESkOQLwUOz9qBcoirGHTmv/Rosswu+ap0cUatkm0XVwoJ2LYq18rsXAQ2Xe18rHePtbtBSyy5t+GUL6ziDcXW5+jPSe2KTe5wNsdStfFatO8XDRwWoi3Lbpika4/dm88FFm2vlSXVfm4ydqa27MvmzeLuoVm2pfLpmq+Fj/zw+tBVeP+smKSt5f6H2f1T+vmcNpvVU485Ka4yT5WVfn0CvikTiSQXZ1WhwPt+83JJ69eys6zVf5eWKfttAfG4ViVr9O6+H5efB+h7hu+lMWmPhmcyIjnUZQOZezKx2qRd6e9grZKSuT+4W7yQfSmhtQqr62i9nV2vPKB1Tjg/rC7T7ftj8t1/tzV5+1J1S7W6W5XLP5s7cYf/MZGx07ghYlrosC0vaurM9f/4Cdh6PsmCTzHOK7fI4tB+7dPFsP9n/+BxuPJdaSHUNV7247vvFHQmC1nwL3v/y3nyi0nHqvlJMiWYwdii2Xz+iFvvuJbc2fff6X3ua6at9++uQ+/aVf5rviZ3u2LapvWtr2a/ZcFtzfB57asx7rcvba1oeOGfZvtfseDnfmdO7srlz7Hx3vASbs6Pn0y/s3djuX21tAyXe9oq+gQ8D7cp/3eOurr/H+ijpqXVVnWp52uGXTe/1FmefuJ/wI=&lt;/diagram&gt;&lt;/mxfile&gt;">
+    <defs/>
+    <g>
+        <ellipse cx="450" cy="200" rx="60" ry="40" fill-opacity="0.2" fill="#dae8fc" stroke="#6c8ebf" stroke-opacity="0.2" pointer-events="all"/>
+        <ellipse cx="540" cy="140" rx="60" ry="40" fill-opacity="0.2" fill="#d5e8d4" stroke="#82b366" stroke-opacity="0.2" pointer-events="all"/>
+        <path d="M 390 280 L 390 80" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="stroke"/>
+        <path d="M 430 280 L 430 80" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="stroke"/>
+        <path d="M 470 280 L 470 80" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="stroke"/>
+        <path d="M 510 280 L 510 80" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="stroke"/>
+        <path d="M 550 280 L 550 80" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="stroke"/>
+        <path d="M 590 280 L 590 80" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="stroke"/>
+        <path d="M 630 280 L 630 80" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="stroke"/>
+        <path d="M 630 80 L 390 80" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="stroke"/>
+        <path d="M 630 120 L 390 120" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="stroke"/>
+        <path d="M 630 160 L 390 160" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="stroke"/>
+        <path d="M 630 200 L 390 200" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="stroke"/>
+        <path d="M 630 240 L 390 240" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="stroke"/>
+        <path d="M 630 280 L 390 280" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="stroke"/>
+        <ellipse cx="434.5" cy="204.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="444.5" cy="204.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="454.5" cy="204.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="464.5" cy="204.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="434.5" cy="214.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="444.5" cy="214.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="454.5" cy="214.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="464.5" cy="214.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="434.5" cy="224.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="444.5" cy="224.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="454.5" cy="224.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="464.5" cy="224.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="434.5" cy="234.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="444.5" cy="234.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="454.5" cy="234.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="464.5" cy="234.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="474.5" cy="204.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="484.5" cy="204.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="494.5" cy="204.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="504.5" cy="204.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="474.5" cy="194.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="484.5" cy="194.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="494.5" cy="194.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="504.5" cy="194.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="474.5" cy="214.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="484.5" cy="214.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="494.5" cy="214.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="474.5" cy="224.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="484.5" cy="224.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="434.5" cy="194.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="444.5" cy="194.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="454.5" cy="194.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="464.5" cy="194.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="474.5" cy="184.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="484.5" cy="184.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="494.5" cy="184.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="394.5" cy="194.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="404.5" cy="194.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="414.5" cy="194.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="424.5" cy="194.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="394.5" cy="204.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="404.5" cy="204.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="414.5" cy="204.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="424.5" cy="204.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="474.5" cy="174.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="484.5" cy="174.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="504.5" cy="164.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="524.5" cy="174.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="534.5" cy="174.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="544.5" cy="174.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="514.5" cy="164.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="524.5" cy="164.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="534.5" cy="164.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="544.5" cy="164.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="554.5" cy="174.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="554.5" cy="164.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="564.5" cy="164.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="574.5" cy="164.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="514.5" cy="154.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="524.5" cy="154.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="534.5" cy="154.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="544.5" cy="154.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="514.5" cy="144.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="524.5" cy="144.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="534.5" cy="144.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="544.5" cy="144.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="514.5" cy="134.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="524.5" cy="134.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="534.5" cy="134.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="544.5" cy="134.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="514.5" cy="124.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="524.5" cy="124.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="534.5" cy="124.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="544.5" cy="124.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="554.5" cy="154.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="564.5" cy="154.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="574.5" cy="154.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="584.5" cy="154.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="554.5" cy="144.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="564.5" cy="144.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="574.5" cy="144.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="584.5" cy="144.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="554.5" cy="134.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="564.5" cy="134.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="574.5" cy="134.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="584.5" cy="134.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="554.5" cy="124.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="564.5" cy="124.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="574.5" cy="124.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="584.5" cy="124.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="494.5" cy="154.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="504.5" cy="154.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="484.5" cy="144.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="494.5" cy="144.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="504.5" cy="144.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="484.5" cy="134.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="494.5" cy="134.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="504.5" cy="134.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="494.5" cy="124.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="504.5" cy="124.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="514.5" cy="114.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="524.5" cy="114.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="534.5" cy="114.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="544.5" cy="114.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="524.5" cy="104.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="534.5" cy="104.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="544.5" cy="104.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="504.5" cy="114.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="554.5" cy="114.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="564.5" cy="114.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="574.5" cy="114.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="554.5" cy="104.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="594.5" cy="144.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="594.5" cy="134.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="434.5" cy="184.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="444.5" cy="184.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="454.5" cy="184.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="464.5" cy="184.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="434.5" cy="174.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="444.5" cy="174.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="454.5" cy="174.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="464.5" cy="174.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="434.5" cy="164.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="444.5" cy="164.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="454.5" cy="164.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="464.5" cy="164.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="414.5" cy="224.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="424.5" cy="224.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="404.5" cy="214.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="414.5" cy="214.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="424.5" cy="214.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="404.5" cy="184.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="414.5" cy="184.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="424.5" cy="184.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="414.5" cy="174.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <ellipse cx="424.5" cy="174.5" rx="2.5" ry="2.5" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <path d="M 475.87 60 L 503.63 60" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 470.62 60 L 477.62 56.5 L 475.87 60 L 477.62 63.5 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 508.88 60 L 501.88 63.5 L 503.63 60 L 501.88 56.5 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="447" y="30" width="90" height="30" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 45px; margin-left: 492px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; font-weight: bold; white-space: nowrap;">
+                                grid_size_x
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="492" y="49" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle" font-weight="bold">
+                    grid_size_x
+                </text>
+            </switch>
+        </g>
+        <path d="M 370 126.37 L 370 153.63" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 370 121.12 L 373.5 128.12 L 370 126.37 L 366.5 128.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 370 158.88 L 366.5 151.88 L 370 153.63 L 373.5 151.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="285" y="122" width="90" height="30" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 137px; margin-left: 330px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; font-weight: bold; white-space: nowrap;">
+                                grid_size_y
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="330" y="141" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle" font-weight="bold">
+                    grid_size_y
+                </text>
+            </switch>
+        </g>
+        <path d="M 650 131.87 L 650 137.13" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 650 130.37 L 651 132.37 L 650 131.87 L 649 132.37 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 650 138.63 L 649 136.63 L 650 137.13 L 651 136.63 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="660" y="119.5" width="70" height="30" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 135px; margin-left: 695px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; font-weight: bold; white-space: nowrap;">
+                                leaf_size
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="695" y="138" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle" font-weight="bold">
+                    leaf_size
+                </text>
+            </switch>
+        </g>
+        <ellipse cx="60" cy="200" rx="60" ry="40" fill="#dae8fc" stroke="#6c8ebf" pointer-events="all"/>
+        <ellipse cx="150" cy="140" rx="60" ry="40" fill="#d5e8d4" stroke="#82b366" pointer-events="all"/>
+        <rect x="30" y="185" width="60" height="30" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 58px; height: 1px; padding-top: 200px; margin-left: 31px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                PCD_1
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="60" y="204" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    PCD_1
+                </text>
+            </switch>
+        </g>
+        <rect x="120" y="122" width="60" height="30" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 58px; height: 1px; padding-top: 137px; margin-left: 121px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                PCD_2
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="150" y="141" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    PCD_2
+                </text>
+            </switch>
+        </g>
+        <rect x="10" y="0" width="200" height="30" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 198px; height: 1px; padding-top: 15px; margin-left: 11px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 20px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                input pcd files
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="110" y="21" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="20px" text-anchor="middle">
+                    input pcd files
+                </text>
+            </switch>
+        </g>
+        <rect x="314.5" y="300" width="340" height="30" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 315px; margin-left: 485px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; font-weight: bold; white-space: nowrap;">
+                                NOTE: voxel downsampling is performed per each grid
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="485" y="319" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle" font-weight="bold">
+                    NOTE: voxel downsampling is performed per each grid
+                </text>
+            </switch>
+        </g>
+        <ellipse cx="884.5" cy="154.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="894.5" cy="154.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="904.5" cy="154.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="914.5" cy="154.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="884.5" cy="164.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="894.5" cy="164.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="904.5" cy="164.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="914.5" cy="164.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="884.5" cy="174.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="894.5" cy="174.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="904.5" cy="174.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="914.5" cy="174.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="884.5" cy="184.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="894.5" cy="184.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="904.5" cy="184.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="914.5" cy="184.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="924.5" cy="154.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="934.5" cy="154.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="944.5" cy="154.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="954.5" cy="154.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="924.5" cy="144.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="934.5" cy="144.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="944.5" cy="144.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="954.5" cy="144.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="924.5" cy="164.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="934.5" cy="164.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="944.5" cy="164.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="924.5" cy="174.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="934.5" cy="174.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="884.5" cy="144.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="894.5" cy="144.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="904.5" cy="144.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="914.5" cy="144.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="924.5" cy="134.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="934.5" cy="134.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="944.5" cy="134.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="844.5" cy="144.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="854.5" cy="144.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="864.5" cy="144.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="874.5" cy="144.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="844.5" cy="154.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="854.5" cy="154.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="864.5" cy="154.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="874.5" cy="154.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="924.5" cy="124.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="934.5" cy="124.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="954.5" cy="114.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="974.5" cy="124.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="984.5" cy="124.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="994.5" cy="124.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="964.5" cy="114.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="974.5" cy="114.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="984.5" cy="114.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="994.5" cy="114.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="1004.5" cy="124.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="1004.5" cy="114.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="1014.5" cy="114.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="1024.5" cy="114.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="964.5" cy="104.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="974.5" cy="104.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="984.5" cy="104.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="994.5" cy="104.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="964.5" cy="94.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="974.5" cy="94.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="984.5" cy="94.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="994.5" cy="94.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="964.5" cy="84.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="974.5" cy="84.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="984.5" cy="84.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="994.5" cy="84.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="964.5" cy="74.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="974.5" cy="74.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="984.5" cy="74.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="994.5" cy="74.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="1004.5" cy="104.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="1014.5" cy="104.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="1024.5" cy="104.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="1034.5" cy="104.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="1004.5" cy="94.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="1014.5" cy="94.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="1024.5" cy="94.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="1034.5" cy="94.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="1004.5" cy="84.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="1014.5" cy="84.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="1024.5" cy="84.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="1034.5" cy="84.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="1004.5" cy="74.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="1014.5" cy="74.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="1024.5" cy="74.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="1034.5" cy="74.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="944.5" cy="104.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="954.5" cy="104.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="934.5" cy="94.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="944.5" cy="94.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="954.5" cy="94.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="934.5" cy="84.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="944.5" cy="84.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="954.5" cy="84.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="944.5" cy="74.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="954.5" cy="74.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="964.5" cy="64.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="974.5" cy="64.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="984.5" cy="64.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="994.5" cy="64.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="974.5" cy="54.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="984.5" cy="54.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="994.5" cy="54.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="954.5" cy="64.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="1004.5" cy="64.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="1014.5" cy="64.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="1024.5" cy="64.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="1004.5" cy="54.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="1044.5" cy="94.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="1044.5" cy="84.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="884.5" cy="134.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="894.5" cy="134.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="904.5" cy="134.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="914.5" cy="134.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="884.5" cy="124.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="894.5" cy="124.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="904.5" cy="124.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="914.5" cy="124.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="884.5" cy="114.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="894.5" cy="114.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="904.5" cy="114.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="914.5" cy="114.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="864.5" cy="174.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="874.5" cy="174.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="854.5" cy="164.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="864.5" cy="164.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="874.5" cy="164.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="854.5" cy="134.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="864.5" cy="134.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="874.5" cy="134.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="864.5" cy="124.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="874.5" cy="124.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="884.5" cy="324.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="894.5" cy="324.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="904.5" cy="324.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="914.5" cy="324.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="884.5" cy="334.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="894.5" cy="334.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="904.5" cy="334.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="914.5" cy="334.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="884.5" cy="344.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="894.5" cy="344.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="904.5" cy="344.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="914.5" cy="344.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="884.5" cy="354.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="894.5" cy="354.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="904.5" cy="354.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="914.5" cy="354.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="924.5" cy="324.5" rx="2.5" ry="2.5" fill="#d5e8d4" stroke="#82b366" pointer-events="none"/>
+        <ellipse cx="934.5" cy="324.5" rx="2.5" ry="2.5" fill="#d5e8d4" stroke="#82b366" pointer-events="none"/>
+        <ellipse cx="944.5" cy="324.5" rx="2.5" ry="2.5" fill="#d5e8d4" stroke="#82b366" pointer-events="none"/>
+        <ellipse cx="954.5" cy="324.5" rx="2.5" ry="2.5" fill="#d5e8d4" stroke="#82b366" pointer-events="none"/>
+        <ellipse cx="924.5" cy="314.5" rx="2.5" ry="2.5" fill="#f8cecc" stroke="#b85450" pointer-events="none"/>
+        <ellipse cx="934.5" cy="314.5" rx="2.5" ry="2.5" fill="#f8cecc" stroke="#b85450" pointer-events="none"/>
+        <ellipse cx="944.5" cy="314.5" rx="2.5" ry="2.5" fill="#f8cecc" stroke="#b85450" pointer-events="none"/>
+        <ellipse cx="954.5" cy="314.5" rx="2.5" ry="2.5" fill="#f8cecc" stroke="#b85450" pointer-events="none"/>
+        <ellipse cx="924.5" cy="334.5" rx="2.5" ry="2.5" fill="#d5e8d4" stroke="#82b366" pointer-events="none"/>
+        <ellipse cx="934.5" cy="334.5" rx="2.5" ry="2.5" fill="#d5e8d4" stroke="#82b366" pointer-events="none"/>
+        <ellipse cx="944.5" cy="334.5" rx="2.5" ry="2.5" fill="#d5e8d4" stroke="#82b366" pointer-events="none"/>
+        <ellipse cx="924.5" cy="344.5" rx="2.5" ry="2.5" fill="#d5e8d4" stroke="#82b366" pointer-events="none"/>
+        <ellipse cx="934.5" cy="344.5" rx="2.5" ry="2.5" fill="#d5e8d4" stroke="#82b366" pointer-events="none"/>
+        <ellipse cx="884.5" cy="314.5" rx="2.5" ry="2.5" fill="#fff2cc" stroke="#d6b656" pointer-events="none"/>
+        <ellipse cx="894.5" cy="314.5" rx="2.5" ry="2.5" fill="#fff2cc" stroke="#d6b656" pointer-events="none"/>
+        <ellipse cx="904.5" cy="314.5" rx="2.5" ry="2.5" fill="#fff2cc" stroke="#d6b656" pointer-events="none"/>
+        <ellipse cx="914.5" cy="314.5" rx="2.5" ry="2.5" fill="#fff2cc" stroke="#d6b656" pointer-events="none"/>
+        <ellipse cx="924.5" cy="304.5" rx="2.5" ry="2.5" fill="#f8cecc" stroke="#b85450" pointer-events="none"/>
+        <ellipse cx="934.5" cy="304.5" rx="2.5" ry="2.5" fill="#f8cecc" stroke="#b85450" pointer-events="none"/>
+        <ellipse cx="944.5" cy="304.5" rx="2.5" ry="2.5" fill="#f8cecc" stroke="#b85450" pointer-events="none"/>
+        <ellipse cx="844.5" cy="314.5" rx="2.5" ry="2.5" fill="#ffe6cc" stroke="#d79b00" pointer-events="none"/>
+        <ellipse cx="854.5" cy="314.5" rx="2.5" ry="2.5" fill="#ffe6cc" stroke="#d79b00" pointer-events="none"/>
+        <ellipse cx="864.5" cy="314.5" rx="2.5" ry="2.5" fill="#ffe6cc" stroke="#d79b00" pointer-events="none"/>
+        <ellipse cx="874.5" cy="314.5" rx="2.5" ry="2.5" fill="#ffe6cc" stroke="#d79b00" pointer-events="none"/>
+        <ellipse cx="844.5" cy="324.5" rx="2.5" ry="2.5" fill="#f8cecc" stroke="#b85450" pointer-events="none"/>
+        <ellipse cx="854.5" cy="324.5" rx="2.5" ry="2.5" fill="#f8cecc" stroke="#b85450" pointer-events="none"/>
+        <ellipse cx="864.5" cy="324.5" rx="2.5" ry="2.5" fill="#f8cecc" stroke="#b85450" pointer-events="none"/>
+        <ellipse cx="874.5" cy="324.5" rx="2.5" ry="2.5" fill="#f8cecc" stroke="#b85450" pointer-events="none"/>
+        <ellipse cx="924.5" cy="294.5" rx="2.5" ry="2.5" fill="#f8cecc" stroke="#b85450" pointer-events="none"/>
+        <ellipse cx="934.5" cy="294.5" rx="2.5" ry="2.5" fill="#f8cecc" stroke="#b85450" pointer-events="none"/>
+        <ellipse cx="954.5" cy="284.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="974.5" cy="294.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="984.5" cy="294.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="994.5" cy="294.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="964.5" cy="284.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="974.5" cy="284.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="984.5" cy="284.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="994.5" cy="284.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="1004.5" cy="294.5" rx="2.5" ry="2.5" fill="#d5e8d4" stroke="#82b366" pointer-events="none"/>
+        <ellipse cx="1004.5" cy="284.5" rx="2.5" ry="2.5" fill="#d5e8d4" stroke="#82b366" pointer-events="none"/>
+        <ellipse cx="1014.5" cy="284.5" rx="2.5" ry="2.5" fill="#d5e8d4" stroke="#82b366" pointer-events="none"/>
+        <ellipse cx="1024.5" cy="284.5" rx="2.5" ry="2.5" fill="#d5e8d4" stroke="#82b366" pointer-events="none"/>
+        <ellipse cx="964.5" cy="274.5" rx="2.5" ry="2.5" fill="#ffe6cc" stroke="#d79b00" pointer-events="none"/>
+        <ellipse cx="974.5" cy="274.5" rx="2.5" ry="2.5" fill="#ffe6cc" stroke="#d79b00" pointer-events="none"/>
+        <ellipse cx="984.5" cy="274.5" rx="2.5" ry="2.5" fill="#ffe6cc" stroke="#d79b00" pointer-events="none"/>
+        <ellipse cx="994.5" cy="274.5" rx="2.5" ry="2.5" fill="#ffe6cc" stroke="#d79b00" pointer-events="none"/>
+        <ellipse cx="964.5" cy="264.5" rx="2.5" ry="2.5" fill="#ffe6cc" stroke="#d79b00" pointer-events="none"/>
+        <ellipse cx="974.5" cy="264.5" rx="2.5" ry="2.5" fill="#ffe6cc" stroke="#d79b00" pointer-events="none"/>
+        <ellipse cx="984.5" cy="264.5" rx="2.5" ry="2.5" fill="#ffe6cc" stroke="#d79b00" pointer-events="none"/>
+        <ellipse cx="994.5" cy="264.5" rx="2.5" ry="2.5" fill="#ffe6cc" stroke="#d79b00" pointer-events="none"/>
+        <ellipse cx="964.5" cy="254.5" rx="2.5" ry="2.5" fill="#ffe6cc" stroke="#d79b00" pointer-events="none"/>
+        <ellipse cx="974.5" cy="254.5" rx="2.5" ry="2.5" fill="#ffe6cc" stroke="#d79b00" pointer-events="none"/>
+        <ellipse cx="984.5" cy="254.5" rx="2.5" ry="2.5" fill="#ffe6cc" stroke="#d79b00" pointer-events="none"/>
+        <ellipse cx="994.5" cy="254.5" rx="2.5" ry="2.5" fill="#ffe6cc" stroke="#d79b00" pointer-events="none"/>
+        <ellipse cx="964.5" cy="244.5" rx="2.5" ry="2.5" fill="#ffe6cc" stroke="#d79b00" pointer-events="none"/>
+        <ellipse cx="974.5" cy="244.5" rx="2.5" ry="2.5" fill="#ffe6cc" stroke="#d79b00" pointer-events="none"/>
+        <ellipse cx="984.5" cy="244.5" rx="2.5" ry="2.5" fill="#ffe6cc" stroke="#d79b00" pointer-events="none"/>
+        <ellipse cx="994.5" cy="244.5" rx="2.5" ry="2.5" fill="#ffe6cc" stroke="#d79b00" pointer-events="none"/>
+        <ellipse cx="1004.5" cy="274.5" rx="2.5" ry="2.5" fill="#f8cecc" stroke="#b85450" pointer-events="none"/>
+        <ellipse cx="1014.5" cy="274.5" rx="2.5" ry="2.5" fill="#f8cecc" stroke="#b85450" pointer-events="none"/>
+        <ellipse cx="1024.5" cy="274.5" rx="2.5" ry="2.5" fill="#f8cecc" stroke="#b85450" pointer-events="none"/>
+        <ellipse cx="1034.5" cy="274.5" rx="2.5" ry="2.5" fill="#f8cecc" stroke="#b85450" pointer-events="none"/>
+        <ellipse cx="1004.5" cy="264.5" rx="2.5" ry="2.5" fill="#f8cecc" stroke="#b85450" pointer-events="none"/>
+        <ellipse cx="1014.5" cy="264.5" rx="2.5" ry="2.5" fill="#f8cecc" stroke="#b85450" pointer-events="none"/>
+        <ellipse cx="1024.5" cy="264.5" rx="2.5" ry="2.5" fill="#f8cecc" stroke="#b85450" pointer-events="none"/>
+        <ellipse cx="1034.5" cy="264.5" rx="2.5" ry="2.5" fill="#f8cecc" stroke="#b85450" pointer-events="none"/>
+        <ellipse cx="1004.5" cy="254.5" rx="2.5" ry="2.5" fill="#f8cecc" stroke="#b85450" pointer-events="none"/>
+        <ellipse cx="1014.5" cy="254.5" rx="2.5" ry="2.5" fill="#f8cecc" stroke="#b85450" pointer-events="none"/>
+        <ellipse cx="1024.5" cy="254.5" rx="2.5" ry="2.5" fill="#f8cecc" stroke="#b85450" pointer-events="none"/>
+        <ellipse cx="1034.5" cy="254.5" rx="2.5" ry="2.5" fill="#f8cecc" stroke="#b85450" pointer-events="none"/>
+        <ellipse cx="1004.5" cy="244.5" rx="2.5" ry="2.5" fill="#f8cecc" stroke="#b85450" pointer-events="none"/>
+        <ellipse cx="1014.5" cy="244.5" rx="2.5" ry="2.5" fill="#f8cecc" stroke="#b85450" pointer-events="none"/>
+        <ellipse cx="1024.5" cy="244.5" rx="2.5" ry="2.5" fill="#f8cecc" stroke="#b85450" pointer-events="none"/>
+        <ellipse cx="1034.5" cy="244.5" rx="2.5" ry="2.5" fill="#f8cecc" stroke="#b85450" pointer-events="none"/>
+        <ellipse cx="944.5" cy="274.5" rx="2.5" ry="2.5" fill="#e1d5e7" stroke="#9673a6" pointer-events="none"/>
+        <ellipse cx="954.5" cy="274.5" rx="2.5" ry="2.5" fill="#e1d5e7" stroke="#9673a6" pointer-events="none"/>
+        <ellipse cx="934.5" cy="264.5" rx="2.5" ry="2.5" fill="#e1d5e7" stroke="#9673a6" pointer-events="none"/>
+        <ellipse cx="944.5" cy="264.5" rx="2.5" ry="2.5" fill="#e1d5e7" stroke="#9673a6" pointer-events="none"/>
+        <ellipse cx="954.5" cy="264.5" rx="2.5" ry="2.5" fill="#e1d5e7" stroke="#9673a6" pointer-events="none"/>
+        <ellipse cx="934.5" cy="254.5" rx="2.5" ry="2.5" fill="#e1d5e7" stroke="#9673a6" pointer-events="none"/>
+        <ellipse cx="944.5" cy="254.5" rx="2.5" ry="2.5" fill="#e1d5e7" stroke="#9673a6" pointer-events="none"/>
+        <ellipse cx="954.5" cy="254.5" rx="2.5" ry="2.5" fill="#e1d5e7" stroke="#9673a6" pointer-events="none"/>
+        <ellipse cx="944.5" cy="244.5" rx="2.5" ry="2.5" fill="#e1d5e7" stroke="#9673a6" pointer-events="none"/>
+        <ellipse cx="954.5" cy="244.5" rx="2.5" ry="2.5" fill="#e1d5e7" stroke="#9673a6" pointer-events="none"/>
+        <ellipse cx="964.5" cy="234.5" rx="2.5" ry="2.5" fill="#d5e8d4" stroke="#82b366" pointer-events="none"/>
+        <ellipse cx="974.5" cy="234.5" rx="2.5" ry="2.5" fill="#d5e8d4" stroke="#82b366" pointer-events="none"/>
+        <ellipse cx="984.5" cy="234.5" rx="2.5" ry="2.5" fill="#d5e8d4" stroke="#82b366" pointer-events="none"/>
+        <ellipse cx="994.5" cy="234.5" rx="2.5" ry="2.5" fill="#d5e8d4" stroke="#82b366" pointer-events="none"/>
+        <ellipse cx="974.5" cy="224.5" rx="2.5" ry="2.5" fill="#d5e8d4" stroke="#82b366" pointer-events="none"/>
+        <ellipse cx="984.5" cy="224.5" rx="2.5" ry="2.5" fill="#d5e8d4" stroke="#82b366" pointer-events="none"/>
+        <ellipse cx="994.5" cy="224.5" rx="2.5" ry="2.5" fill="#d5e8d4" stroke="#82b366" pointer-events="none"/>
+        <ellipse cx="954.5" cy="234.5" rx="2.5" ry="2.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="none"/>
+        <ellipse cx="1004.5" cy="234.5" rx="2.5" ry="2.5" fill="#fff2cc" stroke="#d6b656" pointer-events="none"/>
+        <ellipse cx="1014.5" cy="234.5" rx="2.5" ry="2.5" fill="#fff2cc" stroke="#d6b656" pointer-events="none"/>
+        <ellipse cx="1024.5" cy="234.5" rx="2.5" ry="2.5" fill="#fff2cc" stroke="#d6b656" pointer-events="none"/>
+        <ellipse cx="1004.5" cy="224.5" rx="2.5" ry="2.5" fill="#fff2cc" stroke="#d6b656" pointer-events="none"/>
+        <ellipse cx="1044.5" cy="264.5" rx="2.5" ry="2.5" fill="#ffe6cc" stroke="#d79b00" pointer-events="none"/>
+        <ellipse cx="1044.5" cy="254.5" rx="2.5" ry="2.5" fill="#ffe6cc" stroke="#d79b00" pointer-events="none"/>
+        <ellipse cx="884.5" cy="304.5" rx="2.5" ry="2.5" fill="#fff2cc" stroke="#d6b656" pointer-events="none"/>
+        <ellipse cx="894.5" cy="304.5" rx="2.5" ry="2.5" fill="#fff2cc" stroke="#d6b656" pointer-events="none"/>
+        <ellipse cx="904.5" cy="304.5" rx="2.5" ry="2.5" fill="#fff2cc" stroke="#d6b656" pointer-events="none"/>
+        <ellipse cx="914.5" cy="304.5" rx="2.5" ry="2.5" fill="#fff2cc" stroke="#d6b656" pointer-events="none"/>
+        <ellipse cx="884.5" cy="294.5" rx="2.5" ry="2.5" fill="#fff2cc" stroke="#d6b656" pointer-events="none"/>
+        <ellipse cx="894.5" cy="294.5" rx="2.5" ry="2.5" fill="#fff2cc" stroke="#d6b656" pointer-events="none"/>
+        <ellipse cx="904.5" cy="294.5" rx="2.5" ry="2.5" fill="#fff2cc" stroke="#d6b656" pointer-events="none"/>
+        <ellipse cx="914.5" cy="294.5" rx="2.5" ry="2.5" fill="#fff2cc" stroke="#d6b656" pointer-events="none"/>
+        <ellipse cx="884.5" cy="284.5" rx="2.5" ry="2.5" fill="#fff2cc" stroke="#d6b656" pointer-events="none"/>
+        <ellipse cx="894.5" cy="284.5" rx="2.5" ry="2.5" fill="#fff2cc" stroke="#d6b656" pointer-events="none"/>
+        <ellipse cx="904.5" cy="284.5" rx="2.5" ry="2.5" fill="#fff2cc" stroke="#d6b656" pointer-events="none"/>
+        <ellipse cx="914.5" cy="284.5" rx="2.5" ry="2.5" fill="#fff2cc" stroke="#d6b656" pointer-events="none"/>
+        <ellipse cx="864.5" cy="344.5" rx="2.5" ry="2.5" fill="#f8cecc" stroke="#b85450" pointer-events="none"/>
+        <ellipse cx="874.5" cy="344.5" rx="2.5" ry="2.5" fill="#f8cecc" stroke="#b85450" pointer-events="none"/>
+        <ellipse cx="854.5" cy="334.5" rx="2.5" ry="2.5" fill="#f8cecc" stroke="#b85450" pointer-events="none"/>
+        <ellipse cx="864.5" cy="334.5" rx="2.5" ry="2.5" fill="#f8cecc" stroke="#b85450" pointer-events="none"/>
+        <ellipse cx="874.5" cy="334.5" rx="2.5" ry="2.5" fill="#f8cecc" stroke="#b85450" pointer-events="none"/>
+        <ellipse cx="854.5" cy="304.5" rx="2.5" ry="2.5" fill="#ffe6cc" stroke="#d79b00" pointer-events="none"/>
+        <ellipse cx="864.5" cy="304.5" rx="2.5" ry="2.5" fill="#ffe6cc" stroke="#d79b00" pointer-events="none"/>
+        <ellipse cx="874.5" cy="304.5" rx="2.5" ry="2.5" fill="#ffe6cc" stroke="#d79b00" pointer-events="none"/>
+        <ellipse cx="864.5" cy="294.5" rx="2.5" ry="2.5" fill="#ffe6cc" stroke="#d79b00" pointer-events="none"/>
+        <ellipse cx="874.5" cy="294.5" rx="2.5" ry="2.5" fill="#ffe6cc" stroke="#d79b00" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 198px; height: 1px; padding-top: 15px; margin-left: 821px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 20px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; white-space: normal; overflow-wrap: normal;">
+                                output pcd files
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="920" y="21" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="20px" text-anchor="middle">
+                    output pcd files
+                </text>
+            </switch>
+        </g>
+        <path d="M 1130 210 L 810 209.5" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 250.5 161.25 L 250.5 146.75 L 263.26 146.75 L 263.26 136.25 L 289.5 154 L 263.26 171.75 L 263.26 161.25 Z" fill="#f5f5f5" stroke="#666666" stroke-linejoin="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 750.5 161.25 L 750.5 146.75 L 763.26 146.75 L 763.26 136.25 L 789.5 154 L 763.26 171.75 L 763.26 161.25 Z" fill="#f5f5f5" stroke="#666666" stroke-linejoin="round" stroke-miterlimit="10" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 95px; margin-left: 1130px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; font-weight: bold; white-space: nowrap;">
+                                if merge_pcds==true
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="1130" y="98" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle" font-weight="bold">
+                    if merge_pcds==true
+                </text>
+            </switch>
+        </g>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 255px; margin-left: 1130px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; font-weight: bold; white-space: nowrap;">
+                                if merge_pcds==false
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="1130" y="258" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle" font-weight="bold">
+                    if merge_pcds==false
+                </text>
+            </switch>
+        </g>
+    </g>
+    <switch>
+        <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <a transform="translate(0,-5)" xlink:href="https://www.diagrams.net/doc/faq/svg-export-text-problems" target="_blank">
+            <text text-anchor="middle" font-size="10px" x="50%" y="100%">
+                Text is not SVG - cannot display
+            </text>
+        </a>
+    </switch>
+</svg>
