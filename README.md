@@ -57,22 +57,22 @@ NOTE:  The `OUTPUT_DIR` must already exist. If it does not, an error will occur,
 
 ## Parameter
 
-* **merge_pcds**
+* **merge_pcds** [boolean]
 
     All PCD files are merge into a single PCD. No divided PCD files are generated.
 
-* **leaf_size**
+* **leaf_size** [double]
 
     The leaf_size of voxel grid filter for pointcloud downsampling. The unit is meters [m].
     If the value is less than or equal to 0, downsampling is skipped.
 
-* **grid_size_[xy]**
+* **grid_size_[xy]** [int]
 
-   The size of the grid for dividing point clouds. Size of grid. The unit is meters [m].
+   The size of the grid for dividing point clouds. The unit is meters [m].
    **NOTE: Even if `merge_pcds` is true, this is used to determine the clusters for downsampling.**
    Therefore, when downsampling without dividing the point cloud, users should not set an excessively large value, such as 100,000. Specifying a large grid size will attempt to load all point clouds into memory and process them at once, which will result in abnormal memory usage.
 
-* **use_large_grid**
+* **use_large_grid** [boolean]
 
     Pack output PCD files in larger grid directory.
     When `merge_pcds` is true, this parameter is ignored.
