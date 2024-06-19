@@ -1,8 +1,13 @@
 # pointcloud_divider
 
-(Updated 2023/03/27)
+(Updated 2024/06/18)
 
-Dividing large PCD files into 2D grids.
+This is a tool for processing pcd files, and it can perform the following functions:
+
+* Dividing point clouds
+* Merging point clouds
+* Downsampling point clouds
+* Generating metadata to efficiently handle the divided point clouds
 
 ## Supported Data Format
 
@@ -38,33 +43,71 @@ $ make
   $ ./scripts/divider_core.sh <PCD_0> ... <PCD_N> <OUTPUT_DIR> <PREFIX> <CONFIG>
   ```
 
-  | Name       | Description                                  |
-  |------------|----------------------------------------------|
-  | INPUT_DIR  | Directory that contains all PCD files        |
-  | PCD_N      | Input PCD file name                          |
-  | OUTPUT_DIR | Output directory name                        |
-  | PREFIX     | Prefix of output PCD file name               |
-  | CONFIG     | Config file ([default](config/default.yaml)) |
+  | Name            | Description                                  |
+  |-----------------|----------------------------------------------|
+  | INPUT_DIR       | Directory that contains all PCD files        |
+  | PCD_0 ... PCD_N | Input PCD file name                          |
+  | OUTPUT_DIR      | Output directory name                        |
+  | PREFIX          | Prefix of output PCD file name               |
+  | CONFIG          | Config file ([default](config/default.yaml)) |
 
- INPUT_DIR, PCD_N OUTPUT_DIR and CONFIG can be specified as both **relative paths** and **absolute paths**.
+ `INPUT_DIR`, `PCD_N`, `OUTPUT_DIR` and `CONFIG` can be specified as both **relative paths** and **absolute paths**.
+
+NOTE:  The `OUTPUT_DIR` must already exist. If it does not, an error will occur, and the process will terminate.
 
 ## Parameter
 
-  * use_large_grid
+* **merge_pcds** [boolean]
 
-    Pack output PCD files in larger grid directory
+    All PCD files are merge into a single PCD. No divided PCD files are generated.
 
-  * merge_pcds
+* **leaf_size** [double]
 
-    Merge all grid into a single PCD
+    The leaf_size of voxel grid filter for pointcloud downsampling. The unit is meters [m].
+    If the value is less than or equal to 0, downsampling is skipped.
 
-  * leaf_size
+* **grid_size_[xy]** [int]
 
-    leaf_size of voxel grid filter [m]
+   The size of the grid for dividing point clouds. The unit is meters [m].
+   **NOTE: Even if `merge_pcds` is true, this is used to determine the clusters for downsampling.**
+   Therefore, when downsampling without dividing the point cloud, users should not set an excessively large value, such as 100,000. Specifying a large grid size will attempt to load all point clouds into memory and process them at once, which will result in abnormal memory usage.
 
-  * grid_size_x(/y)
+* **use_large_grid** [boolean]
 
-    Size of grid [m]
+    Pack output PCD files in larger grid directory.
+    When `merge_pcds` is true, this parameter is ignored.
+    The large grid is fixed at 10 times the size of grid_size_[xy].
+    For example, if the point cloud is divided into 10m x 10m PCD files, a subdirectory like 00100_00100 will contain up to 100 PCD files.
+
+How the point cloud is processed.
+
+![node_diagram](docs/how_to_be_downsampled.drawio.svg)
+
+How the PCD file is named
+
+![node_diagram](docs/output_file_name_pattern.drawio.svg)
+
+### Parameter example
+
+1. Dividing a single point cloud without downsampling
+
+```yaml
+  use_large_grid: false
+  merge_pcds: false
+  leaf_size: -1.0 # any negative number
+  grid_size_x: 20
+  grid_size_y: 20
+```
+
+2. Downsampling and merging divided point clouds into a single file
+
+```yaml
+  use_large_grid: false
+  merge_pcds: true
+  leaf_size: 0.2
+  grid_size_x: 20
+  grid_size_y: 20
+```
 
 ## Metadata YAML Format
 
